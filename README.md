@@ -4,10 +4,6 @@
 
 ### **The Medium Article accompanying this GitHub Repository can be found [here](#).**
 
-## **Test it out! Deploy directly to your netlify account!**
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg "Deploy to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/gitaalekhyapaul/netlify-serverless)
-
 ## **Installation Instructions:**
 
 ```bash
@@ -22,4 +18,14 @@ npm run build
 npm run start:dev
 # To start the Netlify Dev Environment
 npm run start:netlify
+```
+
+## **Important Notes While Deploying to Netlify:**
+
+### Remember to set the Enviromental Variables:
+
+```javascript
+NODE_ENV = "production";
+MONGO_URI = "<Your MongoDB Connection String>";
+MONGO_DBNAME = "<Your MongoDB Database Name>";
 ```
