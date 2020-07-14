@@ -11,7 +11,17 @@
 npm install -g netlify-cli
 # Install Dependencies (Will also compile the code.)
 npm install
+```
 
+Create a file named `.env` with the following environmental variables:
+
+```javascript
+PORT = "<Port Number when executing with Node.js>";
+MONGO_URI = "<Your MongoDB Connection String>";
+MONGO_DBNAME = "<Your MongoDB Database Name>";
+```
+
+```bash
 # To compile TypeScript code into JS and then compile into lambda functions
 npm run build
 # To start a local Node Server for development purposes
