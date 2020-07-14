@@ -1,8 +1,8 @@
-# Netlify Serverless API Demo - Sticky Notes Application
+# Netlify Functions Serverless API - Note Taking Application
 
 ### **Author: [Gita Alekhya Paul](https://github.com/gitaalekhyapaul)**
 
-## **The Medium Article accompanying this GitHub Repository can be found [here](#).**
+### **The Medium Article accompanying this GitHub Repository can be found [here](#).**
 
 ## **Test it out with One-Click Quick Deploy! [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg "Deploy to Netlify")](https://app.netlify.com/start/deploy?repository=https://github.com/gitaalekhyapaul/netlify-serverless)**
 
