@@ -6,3 +6,6 @@
    from = "/api/*"
    to = "/.netlify/functions/api/:splat"
    status = 200
+[template.environment]
+   MONGO_URI = "Your MongoDB Connection String"
+   MONGO_DBNAME = "Your MongoDB Database Name"
