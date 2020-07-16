@@ -41,7 +41,6 @@ npm run start:netlify
 ### Remember to set the Enviromental Variables:
 
 ```javascript
-NODE_ENV = "production";
 MONGO_URI = "<Your MongoDB Connection String>";
 MONGO_DBNAME = "<Your MongoDB Database Name>";
 ```

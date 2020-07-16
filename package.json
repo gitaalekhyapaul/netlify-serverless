@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/gitaalekhyapaul/netlify-serverless#readme",
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/body-parser": "^1.19.0",
     "@types/cors": "^2.8.6",
     "@types/dotenv": "^8.2.0",

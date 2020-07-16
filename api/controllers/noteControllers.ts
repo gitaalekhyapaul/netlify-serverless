@@ -129,7 +129,7 @@ export const getNotes = async (
       data = allDocs;
     }
     console.log(data);
-    if (!data || data.length == 0) {
+    if (!data) {
       throw new CustomError(404, "Notes Not Found");
     }
     res.status(200).json({

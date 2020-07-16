@@ -1,0 +1,82 @@
+#home-container {
+  min-height: 100vh;
+  display: none;
+}
+.modal-content {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.alert-danger {
+  background-color: rgba(255, 0, 0, 0.1);
+  color: rgb(253, 128, 128);
+}
+
+.cardDeck .card-text {
+  height: 8rem;
+  overflow-y: auto;
+}
+
+.toast {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  box-shadow: 0 0 5px green;
+}
+
+.toast .toast-body {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+.toast .toast-header {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.loader {
+  animation: spin 1s infinite linear;
+  border: solid 2vmin transparent;
+  border-radius: 50%;
+  border-right-color: rgb(0, 98, 5);
+  border-top-color: rgb(0, 98, 5);
+  box-sizing: border-box;
+  height: 20vmin;
+  left: calc(50% - 10vmin);
+  position: fixed;
+  top: calc(50% - 10vmin);
+  width: 20vmin;
+  z-index: 1;
+}
+.loader:before {
+  animation: spin 2s infinite linear;
+  border: solid 2vmin transparent;
+  border-radius: 50%;
+  border-right-color: rgb(0, 187, 9);
+  border-top-color: rgb(0, 187, 9);
+  box-sizing: border-box;
+  content: "";
+  height: 16vmin;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 16vmin;
+}
+.loader:after {
+  animation: spin 3s infinite linear;
+  border: solid 2vmin transparent;
+  border-radius: 50%;
+  border-right-color: rgb(108, 255, 115);
+  border-top-color: rgb(108, 255, 115);
+  box-sizing: border-box;
+  content: "";
+  height: 12vmin;
+  left: 2vmin;
+  position: absolute;
+  top: 2vmin;
+  width: 12vmin;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
